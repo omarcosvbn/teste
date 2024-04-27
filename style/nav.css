@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background: linear-gradient(172deg, #1A2B56 12.19%, rgba(26, 43, 86, 0.09) 100.79%);
+}
+
+#title_nav {
+    font-family: "Berkshire Swash", sans-serif;
+    color: white;
+    font-size: 24pt;
+}
+
+.Sign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Quando', serif;
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #3FBBDF;
+}
+
+button:hover {
+    border-radius: 0.5rem;
+    border: 2pt solid transparent;
+    background: linear-gradient(113deg, #1A2B56 -11.21%, rgba(63, 187, 223, 0.93) 127.08%);
+}
