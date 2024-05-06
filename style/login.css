@@ -1,7 +1,15 @@
 body{
+    background-image: url("./fundo_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
+
 .Login{
     background-color: #efefef;
     border-radius: 2rem;
@@ -51,7 +59,7 @@ input{
     font-family: "Quando", sans-serif;
 }
 
-#btnLogin, #btnRegister{
+.btn{
     display: flex;
     width: 14rem;
     justify-content: center;

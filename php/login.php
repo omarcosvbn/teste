@@ -14,7 +14,6 @@
  
     <!--CSS-->
     <link type="text/css" rel="stylesheet" href="/style/login.css">
-    <link type="text/css" rel="stylesheet" href="/style/document.css">
 </head>
 
 <body>
