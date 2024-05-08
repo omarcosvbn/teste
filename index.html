@@ -28,13 +28,13 @@
     <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1" style="width: 75%; height: 85%; position:fixed; bottom:2px; left: 13%; z-index:1" ></canvas>
 
 
-    <script src="WonkasFactory.loader.js"></script>
+    <script src="Build/WonkasFactory.loader.js"></script>
     <script>
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "WonkasFactory.data",
-        frameworkUrl: "WonkasFactory.framework.js",
-        codeUrl: "WonkasFactory.wasm",
+        dataUrl: "Build/WonkasFactory.data",
+        frameworkUrl: "Build/WonkasFactory.framework.js",
+        codeUrl: "Build/WonkasFactory.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Projeto CM",
         productName: "Wonkas Factory",
