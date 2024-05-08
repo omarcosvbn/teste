@@ -15,7 +15,8 @@
     <link rel="stylesheet" type="text/css" href="style/document.css">
     <link rel="stylesheet" type="text/css" href="style/nav.css">
   </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+  
+  <body> <!-- style="text-align: center; padding: 0; border: 0; margin: 0;"-->
     <nav>
       <h1 id="title_nav">Wonka's Factory</h1>
       <div class="Sign">
@@ -25,8 +26,9 @@
       </div>
     </nav>
 
-    <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1" style="width: 75%; height: 85%; position:fixed; bottom:2px; left: 13%; z-index:1" ></canvas>
-
+    <div id="container">
+      <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1" style="width: 75%; height: 75%; position:relative; z-index:1" ></canvas>
+    </div>
 
     <script src="Build/WonkasFactory.loader.js"></script>
     <script>
@@ -39,7 +41,7 @@
         companyName: "Projeto CM",
         productName: "Wonkas Factory",
         productVersion: "1.0",
-        matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        //matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         //devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>

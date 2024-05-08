@@ -10,6 +10,10 @@
     font-style: normal;
 }
 
+html{
+    overflow-x:hidden
+}
+
 body {
   /*background-image: url("./fundo.jpg");*/
     background-color: #314d79;
@@ -20,3 +24,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#container {
+    position: relative;
+    left: 12vw;
+    top: 15vh;
+  }

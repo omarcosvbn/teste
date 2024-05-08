@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
     padding: 0.5rem 2rem;
     background: linear-gradient(172deg, #1A2B56 12.19%, rgba(26, 43, 86, 0.09) 100.79%);
-    position: absolute;
+    position: fixed;
     z-index: 2;
     width: 100%;
     box-sizing: border-box;
